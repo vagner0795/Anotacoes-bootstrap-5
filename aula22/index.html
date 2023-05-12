@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Complementos de campos e formulários</title>
+
+</head>
+
+<body>
+    <h3 class="text-center"><a href="../index.html">Voltar ao inicio</a></h3>
+    <br />
+    <br />
+
+    <h1 class="text-center">Complementos de campos e formulários</h1>
+    <hr />
+
+
+
+    <h4 class="text-center">complemento a esquerda</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <label for="name" class="input-group-text">E-mail</label
+            ><input autocomplete="disabled" id="name" type="text" class="form-control">
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento a direita</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <input autocomplete="disabled" id="name" type="text" class="form-control">
+            <label for="name" class="input-group-text">E-mail</label>
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento a esquerda e  direita</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <label for="name" class="input-group-text">R$</label>
+            <input autocomplete="disabled" id="name" type="number" class="form-control text-end">
+            <label for="name" class="input-group-text">,00</label>
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento ao centro</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <input autocomplete="disabled" id="name" type="text" class="form-control text-end">
+            <span class="input-group-text">@</span>
+            <input autocomplete="disabled" id="name" type="text" class="form-control">
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento em textarea</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <textarea autocomplete="disabled" id="name" type="text" class="form-control"></textarea>
+            <label for="name" class="input-group-text">Mensagem</label>
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento checkbox</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <div class="input-group-text">
+            <input type="checkbox" class="form-check-input mt-0">
+        </div>
+            <input type="text" class="form-control">
+        </div>
+    </div>
+
+    
+    <h4 class="text-center">complemento duplo input</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <span class="input-group-text">Nome Completo</span>
+            <input placeholder="Primeiro nome" autocomplete="disabled" id="name" type="text" class="form-control">
+            <input placeholder="Sobrenome" autocomplete="disabled" id="name" type="text" class="form-control">
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento duplo label</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <span class="input-group-text">$</span>
+            <span class="input-group-text">BRL</span>
+            <input placeholder="valor" type="text" class="form-control">
+        </div>
+    </div>
+
+    <h4 class="text-center">complemento duplo label</h4>
+    <div class="container p-5 ">
+        <div class="mb-3 input-group">
+            <input type="search" class="form-control">
+            <button class="btn btn-outline-secondary">Buscar</button>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

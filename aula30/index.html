@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="../assets/book.png" type="image/x-icon">
+    <title>Painéis deslizantes</title>
+
+</head>
+
+<body>
+
+    <h3 class="text-center mt-5"><a class="btn btn-outline-primary" href="../index.html">Voltar ao inicio</a></h3>
+    <br />
+    <br />
+
+    <h1 class="text-center">Painéis deslizantes</h1>
+    <hr />
+
+    <h4 class="text-center">NavBar com painel simples</h4>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container ">
+            <a href="" class="navbar-brand">Offcanvas</a>
+            <div>
+                <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#painel">Painel</button>
+                <a href="#painel" class="btn btn-success" data-bs-toggle="offcanvas">Painel</a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" id="painel" tabindex="-1">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Painel</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="d-flex justify-content-between">
+                <a class="btn btn-primary d-flex" href="">link 1</a>
+                <a class="btn btn-primary" href="">link 2</a>
+                <a class="btn btn-primary" href="">link 3</a>
+                <a class="btn btn-primary" href="">link 4</a>
+                <a class="btn btn-primary" href="">link 5</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolore magni vero voluptas laudantium iste sunt placeat obcaecati. Sunt magni, illo id ullam sed repellendus quia ratione officiis cupiditate odio voluptatem eius! Eos debitis explicabo voluptas, labore quos nostrum distinctio molestiae doloribus voluptatem omnis odit pariatur repellat repudiandae eaque vel, iusto assumenda! Atque error quos illo ad at molestias, modi id, ipsam vitae nemo dolore eum qui voluptatum accusamus magnam officiis sapiente perspiciatis, tempore cumque recusandae esse distinctio. Voluptates odio nihil soluta ducimus et omnis provident, quidem ea sapiente fuga vero neque laboriosam voluptatibus molestias ullam vel repellendus aspernatur incidunt natus autem explicabo facilis sequi. Placeat atque saepe optio ipsa, nostrum tempora, quibusdam porro quis id maiores voluptas, explicabo quisquam modi perspiciatis asperiores sapiente. Magni debitis necessitatibus est temporibus sed atque, ratione ducimus eius odio perferendis in ipsam alias, eaque ea repellendus tempore aliquam reprehenderit? Ducimus deserunt itaque ex voluptatem, minus corrupti ipsa tempore doloribus repudiandae veritatis, eaque id enim! Dolorum odio optio atque aut omnis eos delectus accusamus ullam reiciendis quam maxime dolorem ducimus, quaerat incidunt placeat corporis, deleniti, tenetur assumenda quae magni voluptas consequatur iure obcaecati. Vero sapiente atque animi! Optio aspernatur quos ab! Illo odit error sint.</p>
+    </div>
+
+    <h4 class="text-center">NavBar com painel simples e scroll</h4>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container ">
+            <a href="" class="navbar-brand">Offcanvas</a>
+            <div>
+                <button class="btn btn-info" data-bs-toggle="offcanvas" data-bs-target="#painell">Painel</button>
+                <a href="#painell" class="btn btn-warning" data-bs-toggle="offcanvas">Painel</a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end text-bg-info" id="painell" tabindex="-1"  data-bs-scroll="true">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Painel</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="d-flex justify-content-between">
+                <a class="btn btn-secondary d-flex" href="">link 1</a>
+                <a class="btn btn-secondary" href="">link 2</a>
+                <a class="btn btn-secondary" href="">link 3</a>
+                <a class="btn btn-secondary" href="">link 4</a>
+                <a class="btn btn-secondary" href="">link 5</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, explicabo cum blanditiis perferendis, pariatur, ducimus optio eius quis quos qui quasi deserunt non praesentium est minima laborum recusandae nihil corporis eligendi veritatis? A optio maiores possimus quas eveniet quod ad exercitationem pariatur repellendus expedita voluptas sequi natus animi in sapiente dolorem perferendis magnam aliquam, provident unde corporis ipsum dignissimos porro. Architecto delectus earum, explicabo ex voluptatibus molestiae molestias labore sapiente cumque repellendus aspernatur nesciunt? Corporis aliquid porro illo perspiciatis eveniet maxime quod quasi voluptate vero quia! Soluta deserunt quas tempora quaerat modi, a, laborum consequatur in quae rerum nisi cupiditate delectus doloremque. Et repellendus doloribus omnis alias officia magnam ducimus natus obcaecati. Laboriosam perferendis debitis fuga sed vel recusandae accusamus assumenda dolorem dignissimos, corrupti aperiam officia optio laudantium architecto totam consequuntur enim possimus ipsum cupiditate molestias culpa repudiandae quibusdam? Porro exercitationem ea voluptatibus atque ipsa, consequatur ducimus nesciunt eos error, ullam accusantium officia deserunt eius pariatur molestiae natus asperiores ex modi nulla explicabo dolor ab architecto. Voluptas, architecto ducimus atque quaerat sint quo necessitatibus ad vero dolorum quisquam, fuga neque minus enim adipisci animi unde libero pariatur qui! Consequatur sequi nisi quos quaerat tempora ipsam debitis quibusdam suscipit laboriosam dolores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolore magni vero voluptas laudantium iste sunt placeat obcaecati. Sunt magni, illo id ullam sed repellendus quia ratione officiis cupiditate odio voluptatem eius! Eos debitis explicabo voluptas, labore quos nostrum distinctio molestiae doloribus voluptatem omnis odit pariatur repellat repudiandae eaque vel, iusto assumenda! Atque error quos illo ad at molestias, modi id, ipsam vitae nemo dolore eum qui voluptatum accusamus magnam officiis sapiente perspiciatis, tempore cumque recusandae esse distinctio. Voluptates odio nihil soluta ducimus et omnis provident, quidem ea sapiente fuga vero neque laboriosam voluptatibus molestias ullam vel repellendus aspernatur incidunt natus autem explicabo facilis sequi. Placeat atque saepe optio ipsa, nostrum tempora, quibusdam porro quis id maiores voluptas, explicabo quisquam modi perspiciatis asperiores sapiente. Magni debitis necessitatibus est temporibus sed atque, ratione ducimus eius odio perferendis in ipsam alias, eaque ea repellendus tempore aliquam reprehenderit? Ducimus deserunt itaque ex voluptatem, minus corrupti ipsa tempore doloribus repudiandae veritatis, eaque id enim! Dolorum odio optio atque aut omnis eos delectus accusamus ullam reiciendis quam maxime dolorem ducimus, quaerat incidunt placeat corporis, deleniti, tenetur assumenda quae magni voluptas consequatur iure obcaecati. Vero sapiente atque animi! Optio aspernatur quos ab! Illo odit error sint.</p>
+    </div>
+
+    <h4 class="text-center">NavBar com painel simples sem backdrop</h4>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container ">
+            <a href="" class="navbar-brand">Offcanvas</a>
+            <div>
+                <button class="btn btn-outline-primary" data-bs-toggle="offcanvas" data-bs-target="#painelll">Painel</button>
+                <a href="#painelll" class="btn btn-outline-success" data-bs-toggle="offcanvas">Painel</a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-top text-bg-warning" id="painelll" tabindex="-1"  data-bs-backdrop="false">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Painel</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="d-flex justify-content-between">
+                <a class="btn btn-danger d-flex" href="">link 1</a>
+                <a class="btn btn-danger" href="">link 2</a>
+                <a class="btn btn-danger" href="">link 3</a>
+                <a class="btn btn-danger" href="">link 4</a>
+                <a class="btn btn-danger" href="">link 5</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, animi obcaecati magnam aliquid excepturi, dolores aperiam, corporis repellat veniam exercitationem maiores delectus quia soluta dolorum. Corrupti temporibus quaerat, officia ullam ad dolorem. Doloremque placeat officiis inventore aspernatur commodi suscipit ullam atque blanditiis quam necessitatibus quia, quae accusantium corporis, labore rem alias nobis assumenda obcaecati hic! Maiores perspiciatis ea neque voluptate exercitationem fugiat eum, voluptatum architecto similique quam est temporibus accusamus libero aliquid esse iste soluta, quis officia magnam! Labore recusandae ipsa voluptatibus! Esse quasi cupiditate non animi in. Et at dignissimos odit! Consequuntur deleniti impedit iure ab blanditiis quaerat deserunt?</p>
+    </div>
+
+    <h4 class="text-center">NavBar com painel simples backdrop static (Não fecha o painel)</h4>
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container ">
+            <a href="" class="navbar-brand">Offcanvas</a>
+            <div>
+                <button class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#paineelll">Painel</button>
+                <a href="#paineelll" class="btn btn-outline-warning" data-bs-toggle="offcanvas">Painel</a>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-bottom text-bg-success" id="paineelll" tabindex="-1"  data-bs-backdrop="static">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Painel</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="d-flex justify-content-between">
+                <a class="btn btn-info d-flex" href="">link 1</a>
+                <a class="btn btn-info" href="">link 2</a>
+                <a class="btn btn-info" href="">link 3</a>
+                <a class="btn btn-info" href="">link 4</a>
+                <a class="btn btn-info" href="">link 5</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, animi obcaecati magnam aliquid excepturi, dolores aperiam, corporis repellat veniam exercitationem maiores delectus quia soluta dolorum. Corrupti temporibus quaerat, officia ullam ad dolorem. Doloremque placeat officiis inventore aspernatur commodi suscipit ullam atque blanditiis quam necessitatibus quia, quae accusantium corporis, labore rem alias nobis assumenda obcaecati hic! Maiores perspiciatis ea neque voluptate exercitationem fugiat eum, voluptatum architecto similique quam est temporibus accusamus libero aliquid esse iste soluta, quis officia magnam! Labore recusandae ipsa voluptatibus! Esse quasi cupiditate non animi in. Et at dignissimos odit! Consequuntur deleniti impedit iure ab blanditiis quaerat deserunt?</p>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

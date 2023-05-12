@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <title>Formatação de Imagens</title>
+
+  <style>
+    #img {
+      height: 400px;
+    }
+    .itachi{
+      height: 300px;
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3 class="text-center"><a href="../index.html">Voltar ao inicio</a></h3>
+  <br />
+  <br />
+
+  <h1>Formatação de Imagens</h1>
+  <hr />
+
+  <p class="text-center">Imagem com class img-fluid</p>
+  <div class="container">
+    <img src="../assets/img1.webp" alt="image" class="img-fluid">
+  </div>
+  <hr />
+
+  <p class="text-center">Imagem com class img-thumbnail</p>
+  <div class="container text-center">
+    <img id="img" src="../assets/img2.jpg" alt="image" class="img-thumbnail">
+  </div>
+  <hr />
+
+  <p class="text-center">Imagem com class rounded</p>
+  <div class="container text-center">
+    <img id="img" src="../assets/img3.png" alt="image" class="img-fluid rounded">
+  </div>
+  <hr />
+
+  <p class="text-center">Imagem com class float</p>
+  <div class="container">
+    <img src="../assets/img4.jpg" alt="" class="rounded float-start me-3 itachi">
+    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam id, laborum ab magnam eum
+      consequatur, corporis impedit suscipit consequuntur eos perspiciatis, similique neque vero quo minima provident
+      obcaecati molestiae. Tempore accusantium perspiciatis iusto totam ullam distinctio sed quis fugiat nihil similique
+      numquam cupiditate et mollitia in, assumenda obcaecati, ratione placeat non, qui delectus consequuntur! Nisi iusto
+      suscipit hic molestias quia libero incidunt esse beatae tenetur dolorem autem a, aut vero qui. Praesentium nulla
+      similique cumque quisquam nostrum repellat ratione non?</p>
+  </div>
+  <hr />
+<br>
+<br>
+  <p class="text-center">figure e figcaption text-end</p>
+  <div class="container text-center">
+   <figure class="figure">
+    <img  src="../assets/img1.webp" alt="" class="img-fluid rounded">
+    <figcaption class="text-end">Legenda da Figura</figcaption>
+   </figure> 
+
+  </div>
+  <hr />
+
+</body>
+
+</html>

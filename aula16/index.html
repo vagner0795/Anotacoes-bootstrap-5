@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <title>Configurações de visibilidade</title>
+  <style>
+    div.border{
+      height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3 class="text-center"><a href="../index.html">Voltar ao inicio</a></h3>
+  <br />
+  <br />
+
+  <h1 class="text-center">Configurações de visibilidade</h1>
+  <hr />
+
+  <h4 class="text-center">Elemento sem classe nenhuma </h4>
+  <div class=" p-5 bg-danger"></div>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classe d-block </h4>
+  <div class="p-4 col-3 d-block m-3 bg-primary"></div>
+  <div class="p-4 col-3 d-block m-3 bg-success"></div>
+  <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classe d-inline </h4>
+  <div class="p-4 col-3 d-inline m-3 bg-primary"></div>
+  <div class="p-4 col-3 d-inline m-3 bg-success"></div>
+  <div class="p-4 col-3 d-inline m-3 bg-warning"></div>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classe d-inline-block </h4>
+  <div class="p-4 col-3 d-inline-block m-3 bg-primary"></div>
+  <div class="p-4 col-3 d-inline-block m-3 bg-success"></div>
+  <div class="p-4 col-3 d-inline-block m-3 bg-warning"></div>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classe d-none div 1 e d-lg-block div azul fica oculta em telas pequenas </h4>
+  <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+  <div class="p-4 col-3 d-block m-3 bg-success"></div>
+  <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classe d-none div 1 e d-lg-block div verde fica oculta em telas grandes </h4>
+  <div class="p-4 col-3  d-block m-3 bg-primary"></div>
+  <div class="p-4 col-3 d-block d-lg-none m-3 bg-success"></div>
+  <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classes d-print-none e d-print-block: ocultar e exibir elementos em modo de impressão</h4>
+  <header class="p-5 text-bg-dark d-print-none">
+    <div class="container">
+      <h1 class="display-1">Cabeçalho</h1>
+    </div>
+  </header>
+  <article class="container my-3">
+    <h1 class="mb-4">Título do artigo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eligendi necessitatibus iusto temporibus optio suscipit odio, sed modi, incidunt accusantium vel. Consectetur ullam distinctio mollitia, sint quia perferendis. Qui, asperiores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus inventore consequuntur iure amet accusantium dolores aspernatur aut dolorem enim. Iure inventore aliquam vel ducimus assumenda numquam officia porro illo?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sapiente veniam excepturi perspiciatis deserunt ducimus, aut iure molestias non numquam animi ratione sunt nisi maxime similique, quae, impedit minus eius?</p>
+    <p class="d-none d-print-block">Fonte: meusite.com</p>
+  </article>
+  <br>
+  <br>
+
+  <h4 class="text-center">Classe invisible div-success</h4>
+<div class="p-4 col-3 m-3 bg-primary"></div>
+<div class="p-4 col-3 m-3 bg-success invisible"></div>
+<div class="p-4 col-3 m-3 bg-warning"></div>
+<br>
+<br>
+
+<h4 class="text-center">Classe overflow auto, hidden, visible e scroll </h4>
+<div class="container bg-info mt-3">
+  <div class="row">
+    <div class="border p-2 col-3 overflow-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est mollitia error excepturi vitae vero. Quod suscipit at assumenda iste consequuntur laborum necessitatibus, accusamus atque blanditiis. Quam voluptatum iure a eveniet.</div>
+    <div class="border p-2 col-3 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro voluptates deserunt, officiis, dolorem ex accusantium quam dolore esse at odio? Dolore a aliquid, dicta consectetur modi totam ipsum inventore!</div>
+    <div class="border p-2 col-3 overflow-visible">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis eaque tempore rerum qui fugit temporibus obcaecati enim repellat. Excepturi cumque ea molestias illo facere similique facilis consectetur voluptatum aspernatur molestiae!</div>
+    <div class="border p-2 col-3 overflow-scroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam velit explicabo maiores. Sint dolorem vitae ducimus sunt. Error, numquam? Quas animi hic libero tenetur alias possimus perferendis voluptates illum cupiditate!</div>
+  </div>
+</div>
+
+</body>
+</html>
